@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exo5</title>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f9f9f9;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .header {
+      background-color: #1e3c72;
+      color: #fff;
+      padding: 20px 50px;
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .header nav ul li a {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .header p {
+      font-size: 14px;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    .hero {
+      background: url("WhatsApp Image 2025-09-25 à 02.52.14_91313549.jpg") center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      background: #ff7e5f;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      margin-top: 20px;
+      transition: 0.3s;
+      
+    }
+
+    .hero a:hover {
+      background: #e36c4c;
+    }
+
+    section {
+      margin: auto;
+      padding: 60px 20px;
+      max-width: 1100px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #1e3c72;
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+
+    .apropos {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .apropos img {
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .service {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 250px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service:hover {
+      background: #ddd;
+    }
+
+    .service img {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 20px;
+      text-align: center;
+    }
+
+    table th {
+      background: #1e3c72;
+      color: white;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea, button {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font: inherit;
+    }
+
+    button {
+      background: #1e3c72;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #16325a;
+    }
+
+    footer {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    
+    footer a {
+      margin: 0 10px;
+      color: #ff7e5f;
+
+    }
+    
+  </style>
+
+</head>
+<body>
+
+    <div class="header">
+
+      <h1>CodeMaster</h1>
+
+        <nav>
+          <ul>
+            <li><a href="#accueil">Accueil</a> </li>
+            <li><a href="#apropos">A propos</a> </li>
+            <li><a href="#service">Service</a> </li>
+            <li><a href="#offre">Offre</a> </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p> Une vision plus loin du futur</p>
+    </div>
+
+    <section class="hero">
+
+        <h2>Une évolution parfaite</h2>
+
+        <a href="#contact">Nous contacter</a>
+
+
+    </section>
+
+    <section id="apropos">
+
+          <h3>Qui somme nous ?</h3>
+          <div class="apropos">
+            <img src="WhatsApp Image 2025-09-25 à 02.55.42_a26cd2c4.jpg" alt="">
+            <p>
+            Codemaster est une agence spécialisée dans le développement de solutions numériques sur mesure, 
+            alliant innovation, performance et design. Elle accompagne les entreprises dans la création d'applications web et mobiles, 
+            en mettant l'accent sur l'expérience utilisateur et la fiabilité technique. Grâce à une équipe passionnée et polyvalente, 
+            Codemaster transforme les idées en produits digitaux performants. Son objectif : propulser ses clients vers le succès à travers 
+            des technologies modernes et adaptées à leurs besoins.
+            </p>
+          </div>
+
+      </section>
+
+      <section id="service">
+
+        <h3>Nos Services</h3>
+
+          <div class="services">
+
+            <div class="service">
+              <img src="WhatsApp Image 2025-09-25 à 04.01.44_710da63b.jpg" alt="une image">
+              <h4>Cours</h4>
+                <p>
+                  Nous donnons des cours pour tous les niveaux
+                </p>
+            </div>
+
+            <div class="service">
+              <img src="WhatsApp Image 2025-09-25 à 04.07.08_23484404.jpg" alt="image">
+              <h4>Livecoding</h4>
+                <p>
+                  Une formation de coding en direct pour mieux corriger les erreurs
+                  et suivre les cours
+                </p>
+            </div>
+
+            <div class="service">
+              <img src="WhatsApp Image 2025-09-25 à 04.03.06_efc71f02.jpg" alt="une image">
+              <h4>Exercice de renforcement</h4>
+                <p>
+
+                  Nous donnons des Exercices pour vérifier les acquis de chacun
+                  après chaque cours
+
+                </p>
+
+            </div>
+
+          </div>
+
+      </section>
+
+      <section id="offre">
+          <h3>Nos offres</h3>
+          <table>
+            <tr>
+              <th>Offres</th>
+              <th>Prix</th>
+              <th>Avantages</th>
+            </tr>
+            
+            <tr>
+              <td>Abonné</td>
+              <td>250000 frcs</td>
+              <td>Suivi </td>
+            </tr>
+
+            <tr>
+              <td>Design</td>
+              <td>150000 frcs</td>
+              <td>Dinamisme des pages</td>
+            </tr>
+
+            <tr>
+              <td>Data scientist</td>
+              <td>500000 frcs</td>
+              <td>Logique des pages</td>
+            </tr>
+            
+            <tr>
+              <td>Formation IA</td>
+              <td>350000 frcs</td>
+              <td>Createur chatbot</td>
+            </tr>
+          </table>
+      </section>
+
+      <section id="contact">
+          <h3>Nous contacter</h3>
+          <form>
+            <input type="text" placeholder="Votre nom">
+            <input type="emai" placeholder="Votre email">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button>Envoyer</button>
+          </form>
+      </section>
+
+      <footer>
+        <p>Tous droit réservés</p> 
+        <p>
+          <a href="#">www.facebook.com</a>
+          <a href="#">www.linkedin.com</a>
+          <a href="#">yahoo</a>
+        </p>
+      </footer>
+    
+</body>
+</html>
